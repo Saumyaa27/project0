@@ -1,0 +1,116 @@
+#blue{
+	color:#4285F4;
+}
+#red{
+	color: #DB4437;
+}
+#yellow{
+	color: #F4B400;
+}
+#green{
+	color: #0F9D58;
+}
+.borderbutton{
+	border: none;
+	padding: 1vh 2vh 1vh 2vh;
+	margin: .5vh;
+	margin-top: 1vh;
+	border-radius: 5px;
+	font-size: 2vh;
+	color: #676767;
+}
+	
+.borderarea{
+	border-radius: 6vh;
+	transition: box-shadow .3s;
+	border-color: #c4c4c4;
+	border-style: solid;
+	border-width: thin;
+	height: 5.8vh;
+	width: 37vw;
+	margin-top: 2vh;
+	opacity: 0.7;
+	padding-left: 3vh;
+}
+ .borderarea:hover{
+ 	box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+ 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+  .borderbutton:hover{
+ 	border: 1px solid #bbb;
+ 	color: black;
+ }
+
+ .images{
+ 	
+ 	color: black;
+ 	font-family: 'arial regular';
+ }
+ .images:hover{
+ 	color: #808080;
+ 	text-decoration: underline;
+ }
+
+ .advbutton{
+ 	background:#4285F4;
+ 	color: white;
+ 	border: 1px solid #3079ed;
+ 	font-size: 11px;
+    font-weight: bold;
+	padding: 1vh 2vh 1vh 2vh;
+	margin-left: 41vw;
+	background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+ }
+
+.area{
+	border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    min-width: 167px;
+    width: 36vw;
+    vertical-align: middle;
+
+}
+.area:focus{
+	border: 1px solid #3079ed;
+	-webkit-box-shadow: inset 0.5vh 0.5vh #ccc, 0.5vh 0.5vh rgba(0,0,0,0); 
+    box-shadow: inset 0.5px 1px 2.5px 0px #ccc, 0.5px 1px 2.5px 0px rgba(0,0,0,0);
+
+;
+
+}
+
+.nav{
+	background: #f1f1f1;
+	height :60px;
+	width:100%;
+	margin-top: 0;
+	white-space: nowrap;
+	margin-left: 0!important;
+    margin-right: 0!important;
+    margin-bottom: 20px;
+}
+.col3{
+	color: #555;
+	font-size: 11px;
+
+}
