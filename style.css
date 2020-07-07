@@ -169,4 +169,54 @@ button:focus {
 
 } 
 
+@media only screen and (max-width: 1600px) {
+.icons { 
+    padding-left: 450px; 
+    
+
+} 
+.iconc { 
+   
+    
+    padding-left: 470px; 
+   
+
+} 
+.iconm { 
+   
+    padding-left: 490px; 
+  
+} 
+
+
+@media only screen and (max-width: 1300px) {
+.icons { 
+    padding-left: 350px; 
+    
+
+} 
+.iconc { 
+   
+    
+    padding-left: 370px; 
+   
+
+} 
+.iconm { 
+   
+    padding-left: 390px; 
+  
+} 
+
         
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+.input-icons a>i { 
+     display: none;
+} 
+
+}
