@@ -30,7 +30,7 @@
 	width: 37vw;
 	margin-top: 2vh;
 	opacity: 0.7;
-	padding-left: 3vh;
+	padding-left: 6vh;
 }
  .borderarea:hover{
  	box-shadow: 0 0 11px rgba(33,33,33,.2); 
@@ -52,6 +52,7 @@ button:focus {
  	
  	color: black;
  	font-family: 'arial regular';
+
  }
  .images:hover{
  	color: #808080;
@@ -90,13 +91,16 @@ button:focus {
     vertical-align: middle;
 
 }
+@media only screen and (max-width: 768px) {
+	.area{
+		width: 167px;
+	}
+}
+
 .area:focus{
 	border: 1px solid #3079ed;
 	-webkit-box-shadow: inset 0.5vh 0.5vh #ccc, 0.5vh 0.5vh rgba(0,0,0,0); 
     box-shadow: inset 0.5px 1px 2.5px 0px #ccc, 0.5px 1px 2.5px 0px rgba(0,0,0,0);
-
-;
-
 }
 
 .nav{
@@ -111,6 +115,58 @@ button:focus {
 }
 .col3{
 	color: #555;
-	font-size: 11px;
+	font-size: 1.5vh;
 
 }
+
+.input-icons i { 
+    position: absolute; 
+} 
+          
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 5px; 
+} 
+          
+.icon { 
+    padding: 29px; 
+    color: #222222;
+    min-width: 50px; 
+    text-align: center;
+    padding-left: 2px; 
+    padding-bottom: 1px;
+
+} 
+
+.icons { 
+    padding: 29px; 
+    color: #4285F4;
+    min-width: 50px; 
+    text-align: center;
+    padding-left: 530px; 
+    padding-bottom: 1px;
+    z-index: 2;
+
+} 
+.iconc { 
+    padding: 29px; 
+    color: #555;
+    min-width: 50px; 
+    text-align: center;
+    padding-left: 500px; 
+    padding-bottom: 1px;
+    z-index: 2;
+
+} 
+.iconm { 
+    padding: 29px; 
+    color: #4285F4;
+    min-width: 50px; 
+    text-align: center;
+    padding-left: 560px; 
+    padding-bottom: 1px;
+    z-index: 2;
+
+} 
+
+        
