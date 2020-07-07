@@ -95,6 +95,16 @@ button:focus {
 	.area{
 		width: 167px;
 	}
+	 .borderarea{
+	 	width: 300px;
+	 }
+}
+
+@media only screen and (max-width: 350px) {
+	.area,.borderarea{
+		width: 167px;
+	}
+	
 }
 
 .area:focus{
@@ -169,47 +179,40 @@ button:focus {
 
 } 
 
+.logo{
+	height:105px;
+	margin-top: 16vh;
+	margin-left: 12vh;
+}
+
+@media only screen and (max-width: 768px) {
+	.logo{
+		margin-left: 10.5vh;
+	}
+}
+
 @media only screen and (max-width: 1600px) {
 .icons { 
     padding-left: 450px; 
-    
-
 } 
 .iconc { 
-   
-    
     padding-left: 470px; 
-   
-
 } 
 .iconm { 
-   
     padding-left: 490px; 
-  
 } 
 
 
 @media only screen and (max-width: 1300px) {
 .icons { 
     padding-left: 350px; 
-    
-
 } 
 .iconc { 
-   
-    
     padding-left: 370px; 
-   
-
 } 
 .iconm { 
-   
     padding-left: 390px; 
-  
 } 
-
-        
-
 }
 
 
@@ -218,5 +221,4 @@ button:focus {
 .input-icons a>i { 
      display: none;
 } 
-
 }
