@@ -151,9 +151,8 @@ button:focus {
 .icons { 
     padding: 29px; 
     color: #4285F4;
-    min-width: 50px; 
     text-align: center;
-    padding-left: 530px; 
+    margin-left:70vh; 
     padding-bottom: 1px;
     z-index: 2;
 
@@ -161,9 +160,8 @@ button:focus {
 .iconc { 
     padding: 29px; 
     color: #555;
-    min-width: 50px; 
     text-align: center;
-    padding-left: 500px; 
+    margin-left: 65vh; 
     padding-bottom: 1px;
     z-index: 2;
 
@@ -171,54 +169,21 @@ button:focus {
 .iconm { 
     padding: 29px; 
     color: #4285F4;
-    min-width: 50px; 
     text-align: center;
-    padding-left: 560px; 
+    margin-left: 75vh;
     padding-bottom: 1px;
     z-index: 2;
 
 } 
 
 .logo{
-	height:105px;
 	margin-top: 16vh;
-	margin-left: 12vh;
 }
-
-@media only screen and (max-width: 768px) {
-	.logo{
-		margin-left: 10.5vh;
-	}
-}
-
-@media only screen and (max-width: 1600px) {
-.icons { 
-    padding-left: 450px; 
-} 
-.iconc { 
-    padding-left: 470px; 
-} 
-.iconm { 
-    padding-left: 490px; 
-} 
-
 
 @media only screen and (max-width: 1300px) {
-.icons { 
-    padding-left: 350px; 
-} 
-.iconc { 
-    padding-left: 370px; 
-} 
-.iconm { 
-    padding-left: 390px; 
-} 
-}
-
-
-@media only screen and (max-width: 1000px) {
-
 .input-icons a>i { 
      display: none;
-} 
 }
+
+
+
