@@ -190,7 +190,7 @@ button:focus {
 }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 515px) {
 	.logo{
 	padding-left: 0%;
 	height: 150px;
