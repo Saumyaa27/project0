@@ -177,8 +177,9 @@ button:focus {
 } 
 
 .logo{
-	margin-top: 16vh;
+	/* margin-top: 5vh	; */
 	padding-left: 8%;
+	height: 400px;
 	
 }
 
